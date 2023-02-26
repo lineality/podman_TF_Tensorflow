@@ -3,7 +3,7 @@
 
 Standard Fedora TF Tensorflow Podman Steps
 
-## 1. Podman: Get docker install links,
+## 1. Podman: Get docker install links
 - https://www.tensorflow.org/install 
 
 ## 2. Change docker -> podman and execute in terminal:
@@ -56,4 +56,3 @@ $ sudo podman system df
 $ sudo podman system prune; sudo podman image prune; sudo podman volume prune; sudo podman container prune
 ```
 
-https://www.tensorflow.org/install/
