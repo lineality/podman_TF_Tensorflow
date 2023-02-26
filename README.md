@@ -1,5 +1,24 @@
 # podman_TF_Tensorflow
 
+
+Standard Fedora TF Tensorflow Podman Steps
+
+## 1. Podman: Get docker install links,
+- https://www.tensorflow.org/install 
+
+## 2. Change docker -> podman and execute in terminal:
+```
+$ podman pull tensorflow/tensorflow:latest  # Download latest stable image
+
+$ podman run -it -p 8888:8888 tensorflow/tensorflow:latest-jupyter  # Start Jupyter server
+```
+
+## 3. Open a Notebook
+
+## 4. Your Files Will be in a directory like this:
+- /home/YOUR_NAME/.local/share/containers/storage/overlay/BIG_NUMBER/diff/tf/
+
+
 ## Tensorflow Example
 
 # Podman
