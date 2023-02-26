@@ -15,6 +15,14 @@ $ podman run -it -p 8888:8888 tensorflow/tensorflow:latest-jupyter  # Start Jupy
 
 ## 3. Open a Notebook
 
+
+## 4. Upgrade pip
+```
+!python -m pip install --upgrade pip
+```
+
+## This is operating in a docker container, so you should not need to worry about additional layers of python venv env environments. 
+
 ## 4. Your Files Will be in a directory like this:
 - /home/YOUR_NAME/.local/share/containers/storage/overlay/BIG_NUMBER/diff/tf/
 
